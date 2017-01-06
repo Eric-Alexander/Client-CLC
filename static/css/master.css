@@ -1,0 +1,474 @@
+/*
+@media ( min-width: 420px){
+  #main{
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+  aside{
+    -webkit-column-break-before: always;
+    break-before:always;
+  }
+}*/
+body{
+  font-size: 87.5%;
+  font-family: 'Avenir', 'Georgia';
+  text-align: left;
+}
+
+
+.container {
+  clear: both;
+  height: auto;
+  margin:0 auto;
+  width: 80%;
+}
+header{
+  background-image: url('../img/headerone.jpg');
+  background-size:cover ;
+  /*height:150px;*/
+  /*margin: 2% auto;*/
+  background-repeat: no-repeat;
+  /*position: relative;*/
+  color: white;
+  /*vertical-align: top;*/
+  /*position: absolute;*/
+  text-align: center;
+}
+header h1{
+  font-size: 2.5rem;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+header h3{
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+header nav{
+  height: auto;
+  text-align: center;
+}
+header nav ul{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li{
+  list-style: none;
+  float: left;
+  text-align: center;
+  display: inline-block;
+  width: 20%;
+}
+a{
+  text-decoration: none;
+}
+a:link, a:visited{
+
+}
+a:hover, a:active{
+
+}
+
+header nav a:link, header nav a:visited{
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  /*revisit to assign height*/
+}
+header nav a:hover, header nav a:active,
+header nav .active a:link, header nav .active a:visited{
+  background-color: blue;
+  text-shadow: none;
+}
+#mainContent{
+  line-height: 30px;
+  overflow: hidden;
+  /*clear: both;*/
+}
+#b1{
+  margin: 0 1% 0 1%;
+  /*padding-left: 20px;*/
+  width: 21%;
+  min-height:auto;
+  /*background: gray;*/
+  display: inline-block;
+  vertical-align: top;
+}
+#b2{
+  margin: 0 1% 0 1%;
+  /*padding-left: 20px;*/
+  width: 21%;
+  min-height:auto;
+  /*background: gray;*/
+  display: inline-block;
+  vertical-align: top;
+}
+#b3{
+  margin: 0 1% 0 1%;
+  /*padding-left: 20px;*/
+  width: 21%;
+  min-height:auto;
+  /*background: gray;*/
+  display: inline-block;
+  vertical-align: top;
+}
+#b4{
+  margin: 0 2% 0 2%;
+  /*padding-left: 20px;*/
+  width: 21%;
+  min-height:auto;
+  /*background: gray;*/
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+img.logo{
+  width: 80%;
+  margin: 0 10% 0 10%;
+  height: auto;
+  /*border: 0;*/
+  /*max-width: 500px;*/
+  /*padding-left: 20px;*/
+  /*margin: 0 auto;*/
+  vertical-align: top;
+  /*float:left;*/
+  clear:both;
+}
+article content p{
+  background-color: blue;
+  /*width: 95%;*/
+  padding: 2% 3%;
+  /*margin: 2% 2.5% 0 2.5%;*/
+  clear: both;
+}
+article content p:nth-child(2){
+  float: right;
+  background-color: gray;
+  /*width: 95%;*/
+  padding: 2% 3%;
+  /*margin: 2% 2.5% 0 2.5%;*/
+}
+
+
+footer{
+  background-image: url('../img/HeaderOne.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  /*background-color: blue;*/
+  height:150px;
+}
+footer .contact{
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 2% 0 0 2%;
+}
+footer .cInfo{
+  color: #fff;
+  float: right;
+  line-height: 10px;
+  font-size: 1rem;
+  padding: 2% 2% 0 0;
+  margin-right: 30px;
+}
+
+button a:link, button a:visited{
+  color: #fff;
+}
+button {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
+	background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
+	background-color:#33bdef;
+	-moz-border-radius:29px;
+	-webkit-border-radius:29px;
+	border-radius:29px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:1rem;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+}
+button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+	background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
+	background-color:#019ad2;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+/* ---------Academics.html----------------*/
+
+.introAcademics{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.centerlist{
+  text-align: left;
+  margin: 5% 33%;
+}
+.services h1{
+  text-align: center;
+  margin: 0;
+}
+.academicsBloc-1{
+  background-color: burlywood;
+  padding: 2% 2%;
+}
+.academicsBloc-1 p:last-child {
+  font-size: .75em;
+  text-align: center;
+  padding: 0% !important;
+}
+.academicsBloc-2{
+  background-color: pink;
+  padding: 2% 2%;
+}
+.academicsBloc-2 p:last-child {
+  font-size: .75em;
+  text-align: center;
+  padding: 0% !important;
+}
+.academicsBloc-3{
+  background-color: blue;
+  padding: 2% 2%;
+}
+.academicsBloc-3 p:last-child {
+  font-size: .75em;
+  text-align: center;
+  padding: 0% !important;
+}
+
+/*---------Life.html--------*/
+.col-1{
+  margin: 0 1.5% 0 1.5%;
+  /*padding-left: 20px;*/
+  width: 47%;
+  min-height:auto;
+  background: gray;
+  display: inline-block;
+  vertical-align: top;
+  /*padding-left: 20px;*/
+}
+.col-2{
+  margin: 0 1.5% 0 1.5%;
+  width: 47%;
+  min-height: auto;
+  background: gray;
+  display: inline-block;
+  /*padding-left: 20px;*/
+  vertical-align: top;
+}
+.col33{
+  margin: 0 1% 0 1%;
+  padding-top: 12%;
+  width: 31%;
+  min-height: auto;
+  background: gray;
+  display: inline-block;
+  /*padding-left: 20px;*/
+  vertical-align: top;
+}
+.col66{
+  margin: 0 1% 0 1%;
+  width: 64%;
+  min-height: auto;
+  background: gray;
+  display: inline-block;
+  /*padding-left: 20px;*/
+  vertical-align: center;
+}
+.wedimg{
+  /*max-height: 320px;*/
+  max-width: 100%;
+  /*width: auto;*/
+  height: auto;
+}
+.lifeBloc-2{
+  background-color: orange;
+  padding: 2% 2%;
+}
+.lifeBloc-2 p{
+  padding-left: 4%;
+}
+.lifeBloc-3{
+  background-color: burlywood;
+  padding: 2% 2%;
+}
+.lifeBloc-3 p{
+  padding-left: 4%;
+}
+.lifeBloc-3 p:last-child {
+  font-size: .75em;
+  text-align: center;
+  padding: 0% !important;
+}
+
+
+/*---------Business.html---------*/
+
+.businessBloc-2{
+  background-color: blue;
+  padding: 2% 2%;
+}
+
+
+
+/*---------Approach.html---------*/
+
+
+.approachBloc-1{
+  background-color: blue;
+  padding: 2% 2%;
+}
+.approachBloc-1 .col-1{
+
+  /*margin: 0;*/
+}
+.approachBloc-1 .col-2{
+  background-color: red;
+  width: 50%;
+  margin: 0;
+}
+/*MAKE TWO COLUMNS AND FIX POSITION FIRST*/
+
+.approachBloc-2{
+  background-color: blue;
+  padding: 2% 2%;
+}
+
+
+
+
+@media (max-width: 760px){
+  .col-1, .col-2{
+    display:block;
+    margin: 5% auto;
+    width: 95%;
+  }
+  .approachBloc-1 .col-2{
+    background-color: red;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.soloClasses{
+  background-color: pink;
+
+}
+
+.groupClasses{
+  background-color: orange;
+
+}
+
+.staffClasses{
+  background-color: purple;
+}
+
+.soloClassesX{
+  background-color: pink;
+  text-align: center;
+
+}
+
+@media only screen and (min-width: 150px) and (max-width: 790px){
+  .container {
+    font-size: 104%;
+    width: 98%;
+  }
+  .col-1, .col-2{
+    display:block;
+    margin: 5% auto;
+    width: 95%;
+  }
+  header{
+    background-image: url('../img/HeaderOne.jpg');
+    margin: 0;
+    /*width:100%;*/
+    height:auto;
+
+  }
+  header nav{
+    height: auto;
+  }
+  header nav ul{
+    /*width: 100%;*/
+    padding-left: 0px;
+
+
+  }
+  header nav ul li{
+    /*float: left;*/
+    /*display: inline;*/
+      text-align: center;
+      width: 100%;
+  }
+  header nav a:link, header nav a:visited{
+    color: #fff;
+    display: inline-block;
+    padding: 10px 10px ;
+    border-radius: 6px;
+    /*revisit to assign height*/
+  }
+  header nav a:hover, header nav a:active,
+  header nav .active a:link, header nav .active a:visited{
+    background-color: blue;
+    text-shadow: none;
+  }
+}
+
+/*nav a{
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+
+}
+nav ul > li{
+  display: inline-block;
+
+
+}
+a:hover{
+  font-size: 1.25em;
+  font-weight: bold;
+}*/
+
+
+
+
+/*
+html, body, * { margin: 0;}
+img { max-width: 700px;}
+@media (max-width: 520px){img {max-width: 200px;}}
+@media all and (min-width:480px) and (max-width:800px){
+  p {color: red;}
+}
+@media screen and (min-width: 801px){
+  p{color: green;}
+}
+p { padding: 20px 60px;}*/

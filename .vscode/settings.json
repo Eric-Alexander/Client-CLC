@@ -1,0 +1,71 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+// Editor settings
+"editor.cursorBlinking": "phase",
+"editor.fontFamily": "Menlo",
+"editor.fontWeight": "normal",
+"editor.fontSize": 12,
+"editor.fontLigatures": true,
+"editor.formatOnSave": false,
+"editor.glyphMargin": true,
+"editor.mouseWheelScrollSensitivity": 2,
+"editor.quickSuggestions": true,
+"editor.rulers": [
+80,
+100
+],
+"editor.renderControlCharacters": true,
+"editor.tabSize": 2,
+"editor.tabCompletion": true,
+"editor.wrappingColumn": 0,
+// Files
+"files.autoSave": "onFocusChange",
+"files.exclude": {
+"**/.git": true,
+"**/.svn": true,
+"**/.hg": true,
+"**/.DS_Store": true,
+"**/*.map": true,
+"node_modules": true,
+"**/*.js": {
+"when": "$(basename).ts"
+}
+},
+"files.hotExit": false,
+// Window
+"window.restoreFullscreen": true,
+"window.openFilesInNewWindow": false,
+"window.zoomLevel": 1,
+//Workbench
+"workbench.sideBar.location": "right",
+"workbench.activityBar.visible": true,
+// Markdown
+"markdown.previewFrontMatter": "show",
+// External Terminal
+"terminal.external.osxExec": "iTerm.app",
+// Integrated Terminal
+"terminal.integrated.fontFamily": "Roboto Mono for Powerline",
+"terminal.integrated.fontSize": 14,
+"terminal.integrated.fontLigatures": true,
+"terminal.integrated.cursorBlinking": true,
+"terminal.integrated.lineHeight": 1,
+// Extensions
+"extensions.autoUpdate": true,
+// HTML
+"html.suggest.angular1": false,
+"html.suggest.ionic": false,
+// Git
+"git.confirmSync": false,
+// Git Project Manager
+
+"gitProjectManager.storeRepositoriesBetweenSessions": true,
+"gitProjectManager.ignoredFolders": [
+"node_modules"
+],
+// Python
+"python.pythonPath": "/usr/local/bin/python",
+"python.linting.pep8Enabled": true,
+"python.linting.enabled": false,
+"typescript.check.tscVersion": false,
+"workbench.statusBar.visible": false
+}
